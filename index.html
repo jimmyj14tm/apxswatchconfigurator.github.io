@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Royal Oak Configurator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <header>
+            <h3>Royal Oak Configurator</h3>
+            <p>Swipe the watch face or strap to customize</p>
+        </header>
+        
+        <div class="main-layout">
+            <div class="watch-viewport" id="viewport">
+                <div class="swipe-track" id="strap-track"></div>
+                <div class="swipe-track" id="face-track"></div>
+                
+                <div class="touch-zone" id="face-zone"></div>
+                <div class="touch-zone" id="strap-zone"></div>
+            </div>
+
+            <div class="selection-panel">
+                <section>
+                    <h3>Strap Color</h3>
+                    <div class="swatch-container" id="strap-swatches"></div>
+                </section>
+
+                <section>
+                    <h3>Face Color</h3>
+                    <div class="swatch-container" id="face-swatches"></div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
