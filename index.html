@@ -11,7 +11,7 @@
     <div class="app-container">
         <header>
             <h3>Royal Oak Configurator</h3>
-            <p>Swipe the watch face or strap to customize</p>
+            <p>Swipe the watch or use selectors below</p>
         </header>
         
         <div class="main-layout">
@@ -25,14 +25,28 @@
 
             <div class="selection-panel">
                 <section>
-                    <h3>Strap Color</h3>
-                    <div class="swatch-container" id="strap-swatches"></div>
-                </section>
-
-                <section>
                     <h3>Face Color</h3>
-                    <div class="swatch-container" id="face-swatches"></div>
+                    <div class="color-selector" id="face-selector">
+                        <button class="nav-btn" onclick="changeColor('face', -1)">&#10094;</button>
+                        <div class="current-info">
+                            <div class="swatch-preview" id="face-preview"></div>
+                            <span class="color-name" id="face-name">Black</span>
+                        </div>
+                        <button class="nav-btn" onclick="changeColor('face', 1)">&#10095;</button>
+                    </div>
                 </section>
+                <section>
+                    <h3>Strap Color</h3>
+                    <div class="color-selector" id="strap-selector">
+                        <button class="nav-btn" onclick="changeColor('strap', -1)">&#10094;</button>
+                        <div class="current-info">
+                            <div class="swatch-preview" id="strap-preview"></div>
+                            <span class="color-name" id="strap-name">Black</span>
+                        </div>
+                        <button class="nav-btn" onclick="changeColor('strap', 1)">&#10095;</button>
+                    </div>
+                </section>
+                <button id="download-btn" class="download-button" onclick="downloadWatch()">Download Combination</button>                
             </div>
         </div>
     </div>
