@@ -25,7 +25,7 @@ body {
     box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 }
 
-header { text-align: center; margin-bottom: 1.5rem; }
+header { text-align: center; margin-bottom: 0px; }
 header h3 { margin: 0; font-weight: 700; }
 header p { font-size: 0.85rem; color: #666; margin-top: 5px; }
 
@@ -38,7 +38,7 @@ header p { font-size: 0.85rem; color: #666; margin-top: 5px; }
     border-radius: 15px;
     overflow: hidden;
     user-select: none;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0px;
 }
 
 .swipe-track {
@@ -77,11 +77,11 @@ header p { font-size: 0.85rem; color: #666; margin-top: 5px; }
 
 /* --- COMPACT SELECTOR --- */
 .selection-panel section h3 {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #888;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .color-selector {
@@ -91,7 +91,7 @@ header p { font-size: 0.85rem; color: #666; margin-top: 5px; }
     background: #f1f3f5;
     border-radius: 12px;
     padding: 8px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0px;
 }
 
 .nav-btn {
@@ -143,11 +143,15 @@ header p { font-size: 0.85rem; color: #666; margin-top: 5px; }
     font-weight: 600;
     cursor: pointer;
     transition: opacity 0.2s;
-    margin-top: 1rem;
+    margin-top: 0px;
 }
 
 .download-button:hover {
     opacity: 0.9;
+}
+
+.link-container {
+  text-align: center;
 }
 
 .download-button:active {
