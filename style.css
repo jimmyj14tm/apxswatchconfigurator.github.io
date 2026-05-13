@@ -26,8 +26,8 @@ body {
 }
 
 header { text-align: center; margin-bottom: 0px; }
-header h3 { margin: 0; font-weight: 700; }
-header p { font-size: 0.85rem; color: #666; margin-top: 5px; }
+header h3 { margin: 0; font-weight: 600; }
+header p { font-size: 0.8rem; color: #666; margin-top: 0px; }
 
 /* --- VIEWPORT --- */
 .watch-viewport {
@@ -156,4 +156,8 @@ header p { font-size: 0.85rem; color: #666; margin-top: 5px; }
 
 .download-button:active {
     transform: scale(0.98);
+}
+
+a {
+  font-size: 0.8rem;
 }
