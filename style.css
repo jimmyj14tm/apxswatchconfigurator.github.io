@@ -25,7 +25,7 @@ body {
     box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 }
 
-header { text-align: center; margin-bottom: 0px; }
+header { text-align: center; margin: 0px; }
 header h3 { margin: 0; font-weight: 600; }
 header p { font-size: 0.8rem; color: #666; margin: 0px; }
 
@@ -81,7 +81,7 @@ header p { font-size: 0.8rem; color: #666; margin: 0px; }
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #888;
-    margin-bottom: 0px;
+    margin: 0px;
     text-align:center;
 }
 
